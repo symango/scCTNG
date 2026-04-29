@@ -1,0 +1,14 @@
+,Cell_Type,Numeric_Label
+0,B_cell,1
+1,T_cell,2
+2,activated_stellate,3
+3,alpha,4
+4,beta,5
+5,delta,6
+6,ductal,7
+7,endothelial,8
+8,gamma,9
+9,immune_other,10
+10,macrophage,11
+11,quiescent_stellate,12
+12,schwann,13

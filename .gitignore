@@ -1,9 +1,12 @@
-# 忽略所有数据集
-datasets/
+# 忽略所有大数据文件夹
+datasets/*
+DimensionalityReduction/*
+result/*
 
-# 忽略运行产生的结果和潜在空间数据
-DimensionalityReduction/
-result/
+# 使用 ! 取消对特定 Baron_Mouse 文件夹的忽略
+!datasets/Baron_Mouse/
+!DimensionalityReduction/Baron_Mouse/
+!result/drecord_result/Baron_Mouse/
 
 # 忽略 Python 缓存
 __pycache__/
