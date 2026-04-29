@@ -1,0 +1,10 @@
+# 忽略所有数据集
+datasets/
+
+# 忽略运行产生的结果和潜在空间数据
+DimensionalityReduction/
+result/
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
