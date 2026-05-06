@@ -3,6 +3,16 @@
 This repository is a comprehensive analytical framework based on the original **AE-CTNG** algorithm. It integrates **ZINB-Autoencoder dimensionality reduction** with an **improved CTNG clustering** method. By setting `AUTO_IMPROVE = True` in `run_new.py`, the program enters "Intelligent Diagnosis Mode," automatically selecting the optimal optimization strategy based on data characteristics.
 
 ---
+## Requirements
+- Python 3.8+
+- numpy
+- scipy
+- torch
+- scanpy
+- scikit-learn
+
+Install dependencies via:
+pip install -r requirements.txt
 
 ## 1. Quick Start
 
